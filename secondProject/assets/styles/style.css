@@ -1,0 +1,343 @@
+@font-face {
+    font-family: "Lato";
+    src: url("../fonts/Lato-Bold.ttf");
+    font-style: normal;
+    font-weight: 600;
+}
+
+body {
+    margin: 0;
+    font-family: 'Lato';
+    background-color: #FFF;
+}
+
+h1 {
+    margin: 0;
+}
+
+.center1 {
+    max-width: 1600px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 75px;
+    background-color: #222;
+}
+
+.header-bar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 846.01px;
+}
+
+.header-bar__logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 123px;
+    height: 38px;
+    gap: 41px;
+}
+
+.header-bar__logo-search-button {
+    margin-top: 0;
+    background: none;
+    cursor: pointer;
+    border-style: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.header-bar__menu-button {
+    margin-top: 0;
+    background: none;
+    cursor: pointer;
+    border-style: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.intro {
+    background-color: #F1E4E6;
+}
+
+.intro__content {
+    display: flex;
+    align-items: flex-start;
+    gap: 63.42px;
+}
+
+.intro__content-right {
+    margin-top: 290px;
+    display: flex;
+    width: 405px;
+    gap: 16px;
+}
+
+.intro__content-title {
+    width: 377px;
+    display: flex;
+    flex-wrap: wrap;
+    color: #222;
+    font-family: 'Lato';
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: normal;
+}
+
+.intro__content-title-item {
+    width: 377px;
+    display: flex;
+    justify-content: flex-start;
+}
+
+.intro__content-title-item1 {
+    display: flex;
+    color: #222;
+    font-family: 'Lato';
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.intro__content-title-item2 {
+    padding-left: 6px;
+    color: #F16D7F;
+    font-family: 'Lato';
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.center2 {
+    max-width: 1140px;
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.offer {
+    margin-top: 65px;
+    width: 1170px;
+    background: #FFF;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(2, auto);
+    align-items: start;
+    justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
+    gap: 30px;
+}
+
+.card1 {
+    width: 360px;
+    height: 260px;
+    justify-items: center;
+}
+
+.card1:hover {
+    width: 360px;
+    height: 260px;
+    box-shadow: 15px 25px 56px 6px rgba(0, 0, 0, 0.06);
+    justify-items: center;
+}
+
+.card1-big {
+    width: 1140px;
+    height: 180px;
+    grid-column: span 3;
+    grid-auto-rows: minmax(180px, 180px);
+}
+
+.card1-big:hover {
+    width: 1140px;
+    height: 180px;
+    grid-column: span 3;
+    box-shadow: 15px 25px 56px 6px rgba(0, 0, 0, 0.06);
+}
+
+.offer__item {
+    margin-top: 0;
+    text-decoration: none;
+}
+
+.offer__item-intro {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+.offer__item-intro-text {
+    width: 160px;
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.offer__item-intro-text_upper-title {
+    color: #FFF;
+    text-align: center;
+    font-family: 'Lato';
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.offer__item-intro-text_title {
+    color: #F16D7F;
+    font-family: 'Lato';
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.offer__item-intro-image {
+    width: 360px;
+    height: 260px;
+}
+
+.offer__item-intro-image-big {
+    width: 1140px;
+    height: 180px;
+}
+
+.offer__item-intro-image_overlay {
+    width: 100%;
+    height: 100%;
+    background: rgba(33, 22, 22, 0.70);
+    position: absolute;
+}
+
+.products {
+    margin-top: 96px;
+    margin-bottom: 60px;
+}
+
+.products-cards {
+    margin-top: 49px;
+    background: #FFF;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    align-items: start;
+    justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
+    gap: 30px;
+}
+
+.fetured-items {
+    width: 338px;
+}
+
+.fetured-items__title {
+    color: #222;
+    font-family: Lato;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.fetured-items__desc {
+    margin-top: 6px;
+    color: #9F9F9F;
+    font-family: Lato;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.card2 {
+    width: 360px;
+    height: 581px;
+    background: #F8F8F8;
+    justify-items: center;
+}
+
+.card2:hover {
+    width: 360px;
+    height: 581px;
+    background: #F8F8F8;
+    box-shadow: 15px 25px 56px 6px rgba(0, 0, 0, 0.06);
+    justify-items: center;
+}
+
+.products-cards__image {
+    width: 360px;
+    height: 420px;
+}
+
+.products-cards__text {
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 20px;
+}
+
+.products-cards__text-title {
+    margin-top: 25.35px;
+    color: #000;
+    font-family: 'Lato';
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.products-cards__text-desc {
+    margin-top: 12.65px;
+    color: #5D5D5D;
+    font-family: 'Lato';
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal;
+}
+
+.products-cards__text-price {
+    margin-top: 18px;
+    color: #F16D7F;
+    font-family: 'Lato';
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.button__all-products {
+    margin-top: 48px;
+    width: 212px;
+    height: 48px;
+    border: 1px;
+    border-color: #FF6A6A;
+    border-style: solid;
+    background: #FFF;
+    color: #F26376;
+    font-family: 'Lato';
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    cursor: pointer;
+}
